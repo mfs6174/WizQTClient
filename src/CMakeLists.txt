@@ -473,7 +473,8 @@ link_directories(
 
 target_link_libraries(${PROJECT_NAME}
     quazip
-    cryptlib
+    #cryptlib
+    crypto++
     clucene-core-static
     clucene-shared-static
     extensionsystem
@@ -481,5 +482,6 @@ target_link_libraries(${PROJECT_NAME}
     coreplugin
     helloworld
     markdown
+    z
     ${CMAKE_DL_LIBS}
 )
