@@ -8,7 +8,7 @@ if(NOT ZLIB_FOUND)
     set(ZLIB_LIBRARY zlib)
 endif(NOT ZLIB_FOUND)
 
-add_subdirectory(cryptopp)
+#add_subdirectory(cryptopp)
 add_subdirectory(clucene)
 add_subdirectory(quazip)
 add_subdirectory(aggregation)
